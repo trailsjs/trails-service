@@ -23,7 +23,8 @@
   "homepage": "https://github.com/trailsjs/trails-service#readme",
   "devDependencies": {
     "eslint": "^2.0.0-rc.1",
-    "eslint-config-trails": "^1.0.4"
+    "eslint-config-trails": "^1.0.4",
+    "mocha": "^2.4.5"
   },
   "eslintConfig": {
     "extends": "trails"
