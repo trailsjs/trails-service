@@ -1,11 +1,14 @@
 'use strict'
 
 /**
- * Trails Service Class. 
+ * Trails Service Class.
  */
 module.exports = class TrailsService {
   constructor (app) {
-    this.app = app
+    Object.defineProperty(this, 'app', {
+      enumerable: false,
+      value: app
+    })
   }
 
   get log () {
