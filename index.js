@@ -11,11 +11,12 @@ module.exports = class TrailsService {
     })
   }
 
-  get log () {
+  get log (){
     return this.app.log
   }
 
-  get __ () {
-    return this.app.packs.core.i18n.t
+  get __ (){
+    return this.app.__
   }
+
 }
