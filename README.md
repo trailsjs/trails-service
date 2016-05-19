@@ -29,6 +29,8 @@ class MyService extends Service {
 #### Important Note
 The specification below is not yet implemented in Trails 1.0. Implementation is tentatively scheduled for 2.x series release.
 
+#### Overview
+
 In Trails, Controller methods should remain lightweight. Their primary function is to extract the necessary data from the request, and pass the data into a Service method to perform any necessary work. Controller methods also handle any errors received from the Services, and translate them for the client response.
 
 The work performed by the Services can vary, and depending on the kinds of tasks performed by the Service methods,
