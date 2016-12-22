@@ -1,6 +1,6 @@
 {
   "name": "trails-service",
-  "version": "1.0.0-beta-2",
+  "version": "1.0.0",
   "description": "Trails Service Class",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/trailsjs/trails-service#readme",
   "devDependencies": {
-    "eslint": "^2.0.0-rc.1",
-    "eslint-config-trails": "^1.0.4",
-    "mocha": "^2.4.5"
+    "eslint": "^3.9.1",
+    "eslint-config-trails": "^1.0.8",
+    "mocha": "^3.1.2"
   },
   "eslintConfig": {
     "extends": "trails"
